@@ -1,0 +1,19 @@
+header {
+    padding-top: 50px
+}
+
+.formfield {
+    padding-bottom: 25px;
+}
+
+.note {
+    padding-bottom: 20px;
+    color: #bdbdbd;
+}
+
+.jumbotron {
+    background-image: url(assets/header-image.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+}
