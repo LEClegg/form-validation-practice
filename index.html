@@ -43,10 +43,15 @@
     </nav>
 </header>
     <body>
-        <div class="jumbotron">
-            <div class="container">
-            <h1>So, you want to fill out a form?</h1>
-            <p>You better make sure it's valid before hitting submit. You don't want to find out what happens with invalid forms.</p>
+<!--
+        <div id="scene">
+                <div class="jumbotron layer" data-depth="0.25"></div>
+        </div>
+-->
+        <div id="scene">
+            <div class="jumbotron layer" data-depth=".25">
+                <h1>So, you want to fill out a form?</h1>
+                <p>You better make sure it's valid before hitting submit. You don't want to find out what happens with invalid forms.</p>          
             </div>
         </div>
         <div class="container">
@@ -92,10 +97,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="deploy/parallax.js"></script>
+        <script>var scene = document.getElementById('scene'); var parallax = new Parallax(scene);</script>
     <script src="js/bootstrap.min.js"></script>
     <script src="pace.js"></script>
-    <script src="jquery.parallax.min.js"></script>
-    <script src="parallax.min.js"></script>
-    <script src="form-practice.js"></script>
   </body>
 </html>

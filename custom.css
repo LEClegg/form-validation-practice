@@ -1,6 +1,8 @@
+/*
 header {
     padding-top: 50px
 }
+*/
 
 .formfield {
     padding-bottom: 25px;
@@ -16,6 +18,8 @@ header {
     background-repeat: no-repeat;
     height: 400px;
     background-size: cover;
+    padding-left: 40px;
+    padding-top: 50px;
 }
 
 
